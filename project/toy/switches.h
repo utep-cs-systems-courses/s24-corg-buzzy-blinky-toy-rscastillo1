@@ -6,6 +6,7 @@
 #define SW2 BIT1        // button 2, p2.1
 #define SW3 BIT2        // button 3, p2.2
 #define SW4 BIT3        // button 4, p2.3
+
 #define SWITCHESP1 (SW0)
 
 #define SWITCHESP2 (SW1 | SW2 | SW3 | SW4)
@@ -16,6 +17,5 @@ unsigned char switch_update_interrupt_sense_1();
 unsigned char switch_update_interrupt_sense_2();
 void switch_init();
 void switch_interrupt_handler();
-
 
 #endif
