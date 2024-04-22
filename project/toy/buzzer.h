@@ -5,7 +5,7 @@
 each function will play set frequency to 
 each note*/
 void init_buzzer();
-void set_buzzer_period(short period);
+void set_buzzer_period(unsigned int period);
 void buzzer_no_sound();
 void buzzer_piano_F1();
 void buzzer_piano_Gb();

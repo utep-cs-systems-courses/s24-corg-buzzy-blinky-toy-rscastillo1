@@ -6,20 +6,20 @@
 
 typedef enum{
 
-  no_sound  = 0,
-  piano_F1   =1,
-  piano_Gb  =2,
-  piano_G   =3,
-  piano_Ab  =4,
-  piano_A   =5,
-  piano_Bb  =6,
-  piano_B   =7,
-  piano_C   =8,
-  piano_Db  =9,
-  piano_D   =10,
-  piano_Eb  =11,
-  piano_E   =12,
-  piano_F2  =13
+  NOSOUND  = 0,
+  PIANOF1   =1,
+  PIANOGb  =2,
+  PIANOG   =3,
+  PIANOAb  =4,
+  PIANOA   =5,
+  PIANOBb  =6,
+  PIANOB   =7,
+  PIANOC   =8,
+  PIANODb  =9,
+  PIANOD   =10,
+  PIANOEb  =11,
+  PIANOE   =12,
+  PIANOF2  =13
 
 } State;
 
@@ -38,6 +38,8 @@ void state_piano_D();
 void state_piano_Eb();
 void state_piano_E();
 void state_piano_F2();
+
+void transition(State next_state);
 
 extern State current_state;
 

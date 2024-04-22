@@ -4,7 +4,7 @@
 #include "buzzer.h"
 
 
-State current_state = no_sound;
+State current_state = NOSOUND;
 
 void state_no_sound(){
  led_no_sound();

@@ -4,46 +4,46 @@
 void __interrupt_vec(WDT_VECTOR) WDT()
 {
   switch (current_state){
-  case no_sound:
+  case NOSOUND:
     state_no_sound();
     break;
-  case piano_F1:
+  case PIANOF1:
     state_piano_F1();
     break;
-  case piano_Gb:
+  case PIANOGb:
     state_piano_Gb();
     break;
-  case piano_G:
+  case PIANOG:
     state_piano_G();
     break;
-  case piano_Ab:
+  case PIANOAb:
     state_piano_Ab();
     break;
-  case piano_A:
+  case PIANOA:
     state_piano_A();
     break;
-  case piano_Bb:
+  case PIANOBb:
     state_piano_Bb();
     break;
-  case piano_B:
+  case PIANOB:
     state_piano_B();
     break;
-  case piano_C:
+  case PIANOC:
     state_piano_C();
     break;
-  case piano_Db:
+  case PIANODb:
     state_piano_Db();
     break;
-  case piano_D:
+  case PIANOD:
     state_piano_D();
     break;
-  case piano_Eb:
+  case PIANOEb:
     state_piano_Eb();
     break;
-  case piano_E:
+  case PIANOE:
     state_piano_E();
     break;
-  case piano_F2:
+  case PIANOF2:
     state_piano_F2();
     break;
   }

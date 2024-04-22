@@ -16,7 +16,7 @@ AS              = msp430-elf-as
 all: piano.elf
 
 
-piano.elf: ${COMMON_OBJECTS} led.o buzzer.o switches.o fsm.o vector_interrupt_handler.o ../lib/libTimer.a
+piano.elf: ${COMMON_OBJECTS} led.o buzzer.o switches.o fsm.o vector_interrupt_handler.o p1_interrupt_handler.o p2_interrupt_handler.o main.o ../lib/libTimer.a
 
 	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $^
 

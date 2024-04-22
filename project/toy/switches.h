@@ -8,7 +8,7 @@
 #define SW4 BIT3        // button 4, p2.3
 #define SWITCHESP1 (SW0)
 
-#define SWITCHESP2 (SW0 |SW1 | SW2 | SW3 | SW4)
+#define SWITCHESP2 (SW1 | SW2 | SW3 | SW4)
 
 // functions to initialize switches
 
