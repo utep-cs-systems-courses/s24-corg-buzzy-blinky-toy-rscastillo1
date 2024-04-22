@@ -6,20 +6,20 @@
 
 typedef enum{
 
-  NOSOUND  = 0,
-  PIANOF1   =1,
-  PIANOGb  =2,
-  PIANOG   =3,
-  PIANOAb  =4,
-  PIANOA   =5,
-  PIANOBb  =6,
-  PIANOB   =7,
-  PIANOC   =8,
-  PIANODb  =9,
-  PIANOD   =10,
-  PIANOEb  =11,
-  PIANOE   =12,
-  PIANOF2  =13
+  NOSOUND,
+  PIANOF1,
+  PIANOGb,
+  PIANOG,
+  PIANOAb,
+  PIANOA,
+  PIANOBb,
+  PIANOB,
+  PIANOC,
+  PIANODb,
+  PIANOD,
+  PIANOEb,
+  PIANOE,
+  PIANOF2 
 
 } State;
 
